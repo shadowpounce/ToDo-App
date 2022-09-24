@@ -1,0 +1,25 @@
+.button {
+  @apply bg-white font-bold cursor-pointer flex items-center justify-center;
+  width: 55px;
+  height: 55px;
+  border-radius: 4px;
+}
+
+.button svg {
+  width: 25px;
+  height: 25px;
+  transition: all 0.3s ease;
+}
+
+.button svg:hover {
+  transform: none;
+}
+
+.button:disabled {
+  background: transparent;
+  border: 1px solid gray;
+}
+
+.button:disabled svg {
+  color: gray;
+}
