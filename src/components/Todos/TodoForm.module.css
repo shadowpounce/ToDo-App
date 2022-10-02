@@ -1,0 +1,44 @@
+.todoInput {
+  @apply p-4 w-full;
+  border-radius: 4px;
+}
+
+.todoSubmit {
+  @apply py-2 px-5 bg-white font-bold w-full cursor-pointer;
+  border-radius: 4px;
+}
+
+.todoForm {
+  @apply flex gap-2 mb-8 flex-col w-full justify-between;
+  position: relative;
+}
+
+.todoLabel {
+  position: absolute;
+  bottom: -25px;
+  @apply w-full text-red-500 text-sm;
+}
+
+@media (max-width: 599.8px) {
+  .todoLabel {
+    bottom: -20px;
+    font-size: 10px;
+  }
+}
+
+.todoIcon {
+  position: absolute;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.todoSubmitWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoSubmitWrapper svg {
+  right: 10px;
+}
