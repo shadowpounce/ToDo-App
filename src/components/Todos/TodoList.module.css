@@ -1,7 +1,0 @@
-.todoList {
-  @apply flex flex-col gap-3 w-full;
-}
-
-.todoNone {
-  @apply w-full text-center text-2xl text-white flex items-center justify-center gap-4 flex-row-reverse;
-}
